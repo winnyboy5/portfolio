@@ -6,7 +6,9 @@ import astronaut from "../../../public/assets/astronaut.json";
 
 const HomePage = () => {
     return (
-        <div className="w-full h-full py-8 md:py-5 md:px-5">
+        <div className="md:container md:mx-auto">
+
+        <div className="w-full h-screen py-8 md:py-5 md:px-5">
             <div className="h-full items-center justify-stretch flex flex-col md:flex-row">
                 <motion.div className="md:z-0"
                     initial={{ scale: 0 }}
@@ -43,6 +45,7 @@ const HomePage = () => {
                 </motion.div>
             </div>
            
+        </div>
         </div>
     );
 }

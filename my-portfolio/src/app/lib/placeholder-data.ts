@@ -3,7 +3,7 @@
 const stacks:Stack[] = [
     {
         "category": "Front-End",
-        "grid": "w-full h-1/4 mt-5",
+        "grid": "grow",
         "skills": [
             {
                 "title": "HTML-5",
@@ -29,7 +29,7 @@ const stacks:Stack[] = [
     },
     {
         "category": "Backend",
-        "grid": "w-full h-1/4 mt-5",
+        "grid": "grow",
         "skills": [
             {
                 "title": "Python",
@@ -47,7 +47,7 @@ const stacks:Stack[] = [
     },
     {
         "category": "Frameworks",
-        "grid": "w-full h-1/4 mt-5",
+        "grid": "grow",
         "skills": [
             {
                 "title": "Vue",
@@ -73,7 +73,7 @@ const stacks:Stack[] = [
     },
     {
         "category": "Databases",
-        "grid": "w-full h-1/4 mt-5",
+        "grid": "grow",
         "skills": [
             {
                 "title": "Postgres",
@@ -95,7 +95,7 @@ const stacks:Stack[] = [
     },
     {
         "category": "Operating Systems",
-        "grid": "w-full h-1/4 mt-5",
+        "grid": "grow",
         "skills": [
             {
                 "title": "Mac",
@@ -113,7 +113,7 @@ const stacks:Stack[] = [
     },
     {
         "category": "Tools",
-        "grid": "w-full h-1/4 mt-5",
+        "grid": "grow",
         "skills": [
             {
                 "title": "Figma",
@@ -139,7 +139,7 @@ const stacks:Stack[] = [
     },
     {
         "category": "Architecture",
-        "grid": "w-full h-1/4 mt-5",
+        "grid": "grow",
         "skills": [
             {
                 "title": "Azure",
@@ -157,7 +157,7 @@ const stacks:Stack[] = [
     },
     {
         "category": "Methodologies",
-        "grid": "w-full h-1/4 mt-5",
+        "grid": "grow",
         "skills": [
             {
                 "title": "Agile",
@@ -169,7 +169,7 @@ const stacks:Stack[] = [
     },
     {
         "category": "Lingistics",
-        "grid": "w-full h-1/4 mt-5",
+        "grid": "grow",
         "skills": [
             {
                 "title": "English",
