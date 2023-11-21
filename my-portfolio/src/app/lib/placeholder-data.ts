@@ -3,7 +3,7 @@
 const stacks:Stack[] = [
     {
         "category": "Front-End",
-        "grid": "lg:col-span-auto col-span-12 md:col-span-3",
+        "grid": "w-full h-1/4 mt-5",
         "skills": [
             {
                 "title": "HTML-5",
@@ -29,7 +29,7 @@ const stacks:Stack[] = [
     },
     {
         "category": "Backend",
-        "grid": "lg:col-span-auto col-span-12 md:col-span-3",
+        "grid": "w-full h-1/4 mt-5",
         "skills": [
             {
                 "title": "Python",
@@ -47,7 +47,7 @@ const stacks:Stack[] = [
     },
     {
         "category": "Frameworks",
-        "grid": "lg:col-span-auto col-span-12 md:col-span-3",
+        "grid": "w-full h-1/4 mt-5",
         "skills": [
             {
                 "title": "Vue",
@@ -73,7 +73,7 @@ const stacks:Stack[] = [
     },
     {
         "category": "Databases",
-        "grid": "lg:col-span-auto col-span-12 md:col-span-3",
+        "grid": "w-full h-1/4 mt-5",
         "skills": [
             {
                 "title": "Postgres",
@@ -95,7 +95,7 @@ const stacks:Stack[] = [
     },
     {
         "category": "Operating Systems",
-        "grid": "lg:col-span-auto col-span-12 md:col-span-3",
+        "grid": "w-full h-1/4 mt-5",
         "skills": [
             {
                 "title": "Mac",
@@ -113,7 +113,7 @@ const stacks:Stack[] = [
     },
     {
         "category": "Tools",
-        "grid": "lg:col-span-auto col-span-12 md:col-span-4",
+        "grid": "w-full h-1/4 mt-5",
         "skills": [
             {
                 "title": "Figma",
@@ -139,7 +139,7 @@ const stacks:Stack[] = [
     },
     {
         "category": "Architecture",
-        "grid": "lg:col-span-auto col-span-12 md:col-span-3",
+        "grid": "w-full h-1/4 mt-5",
         "skills": [
             {
                 "title": "Azure",
@@ -157,7 +157,7 @@ const stacks:Stack[] = [
     },
     {
         "category": "Methodologies",
-        "grid": "lg:col-span-auto col-span-12 md:col-span-3",
+        "grid": "w-full h-1/4 mt-5",
         "skills": [
             {
                 "title": "Agile",
@@ -169,7 +169,7 @@ const stacks:Stack[] = [
     },
     {
         "category": "Lingistics",
-        "grid": "lg:col-span-auto col-span-12 md:col-span-2",
+        "grid": "w-full h-1/4 mt-5",
         "skills": [
             {
                 "title": "English",

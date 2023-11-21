@@ -6,8 +6,8 @@ const SkillsPage = () => {
     return (
         <>
             <div className="w-full h-full p-5 overflow-y-auto">
-                <div className="grid grid-cols-12 gap-x-8 gap-y-4 place-content-center">
-                    <div className="bg-gradient-to-r from-[#1b295e]/60 to-[#1b295e]/30 p-10 col-span-9 rounded-lg">
+                <div className="columns-3 gap-4 place-content-center">
+                    <div className="bg-gradient-to-r from-[#1b295e]/60 to-[#1b295e]/30 p-10 rounded-lg h-3/4">
                         <div className="text-[#f8e1d4] lg:text-6xl md:text-5xl">
                             About Me
                         </div>
