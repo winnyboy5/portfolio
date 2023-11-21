@@ -1,5 +1,5 @@
 ﻿import Image from 'next/image'
-import AnimatedBackground from "../components/animatedbackground";
+import AnimatedBackground from "../components/animatedtitle";
 import { motion } from 'framer-motion';
 import Lottie from 'lottie-react';
 import astronaut from "../../../public/assets/astronaut.json";
@@ -36,7 +36,7 @@ const HomePage = () => {
                  <motion.div className="-z-5 lg:w-full md:w-2/3"
                     initial={{ scale: 0 }}
                     whileInView={{ scale: 1 }}
-                    transition={{ duration: 0.5, type: 'spring', ease: "easeInOut", delay:1 }}
+                    transition={{ duration: 0.5, type: 'spring', ease: "easeInOut", delay:2 }}
                     viewport={{once:true}}
                  >
                     <Lottie animationData={astronaut} loop={true} />

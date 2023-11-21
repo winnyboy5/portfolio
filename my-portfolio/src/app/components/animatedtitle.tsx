@@ -10,7 +10,7 @@ const item = {
 }
 
 
-const AnimatedBackground = () => {
+const AnimatedTitle= () => {
     return (
         <motion.div
             animate="visible"
@@ -32,4 +32,4 @@ const AnimatedBackground = () => {
     );
 };
 
-export default AnimatedBackground;
+export default AnimatedTitle;
