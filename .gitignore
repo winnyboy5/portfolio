@@ -5,6 +5,7 @@
 # dependencies
 /node_modules
 /my-portfolio/node_modules
+/my-portfolio/node_modules
 /my-portfolio/dist
 /.pnp
 .pnp.js
@@ -15,6 +16,8 @@
 # next.js
 /.next/
 /out/
+/my-portfolio/.next/
+/my-portfolio/out/
 
 # production
 /build
