@@ -26,10 +26,7 @@ const About = () => {
                     />
                     
                     <TextGenerateEffect
-                        words="Experienced Full Stack / Frontend Developer with 10+ years in Frontend and
-        Backend development. Skilled in creating scalable web solutions. Proven
-        record of boosting user experiences by 20-35% and cutting company
-        costs by 15-35%."
+                        words="Experienced Full Stack Developer specializing in Frontend, with 10+ years in Frontend and Backend development. Skilled in creating scalable web solutions. Proven record of boosting user experiences by 20-35% and cutting company costs by 15-35%."
                         className="mr-2 inline-block text-xl"
                     />
                 
