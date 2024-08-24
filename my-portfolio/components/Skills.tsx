@@ -84,7 +84,7 @@ const Skills = () => {
     ];
 
   return (
-    <section className="lg:h-screen w-full flex md:items-center justify-center left-0 top-0 text-center overflow-auto lg:py-0 py-12" id="skills">
+    <section className="min-h-screen w-full flex md:items-center justify-center left-0 top-0 text-center overflow-auto lg:py-0 py-12" id="skills">
             <BentoGrid className="mx-auto">
             {items.map((item, i) => (
                 <BentoGridItem

@@ -5,7 +5,7 @@ import { TextGenerateEffect } from './ui/GenerateText';
 
 const About = () => {
   return (
-    <section className='lg:h-screen w-full flex items-center justify-center text-justify overflow-auto' id="about">
+    <section className='min-h-screen w-full flex items-center justify-center text-justify overflow-auto' id="about">
             <div className='grid grid-cols-1 md:grid-cols-2 gap-4 items-center justify-center'>
                 <div>
                     <Image
@@ -19,7 +19,7 @@ const About = () => {
                         />
                 </div>
                     
-                <div className='pl-10'>
+                <div className='px-5'>
                     <TextGenerateEffect
                         words="ABOUT ME"
                         className="md:text-7xl text-5xl text-yellow-500 dark:text-yellow-500"

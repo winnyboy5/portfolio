@@ -18,7 +18,7 @@ const Hero: React.FC = () => {
     };
 
     return (
-        <section className="h-screen w-full flex items-center justify-center text-center" id="home">
+        <section className="min-h-screen w-full flex items-center justify-center text-center" id="home">
             <div className="relative pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100 [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]" />
             <HeroHighlight>
                 <motion.h1

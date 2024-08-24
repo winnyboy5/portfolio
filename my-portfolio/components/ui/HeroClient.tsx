@@ -71,7 +71,7 @@ const HeroClient: React.FC = () => {
                 const a = document.createElement('a');
                 a.style.display = 'none';
                 a.href = url;
-                a.download = 'Aswin-Krishnamoorthy.pdf';
+                a.download = 'AswinKrishnamoorthy.pdf';
                 document.body.appendChild(a);
                 a.click();
                 window.URL.revokeObjectURL(url);
@@ -104,7 +104,7 @@ const HeroClient: React.FC = () => {
                         ref={buttonStates.download.ref}
                     />
                 }
-                handleClick={() => handleDownload('/pdf/Aswin-Resume.pdf')}
+                handleClick={() => handleDownload('/pdf/AswinResume.pdf')}
                 iconPos="left"
             />
         </div>
