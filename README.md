@@ -2,7 +2,7 @@
 
 Personal site of Aswin Krishnamoorthy — https://aswin-krishnamoorthy.vercel.app
 
-Next.js 16 · React 19 · Tailwind CSS 4 · TypeScript. The app lives in `my-portfolio/`.
+Next.js 16 · React 19 · Tailwind CSS 4 · TypeScript · Node 24. The app lives in `my-portfolio/`.
 
 ```bash
 cd my-portfolio

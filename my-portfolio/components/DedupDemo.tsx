@@ -58,7 +58,7 @@ export default function DedupDemo() {
             </p>
 
             <div className="mt-6">
-                <p className="kicker mb-2">promo_master.mov · 8 chunks</p>
+                <p className="kicker mb-2">promo_master.mov · 8 FastCDC chunks · BLAKE3 ids</p>
                 <ol className="grid grid-cols-4 gap-1.5 sm:grid-cols-8">
                     {v.chunks.map((c, i) => {
                         const isNew = !prev.has(c);
@@ -123,7 +123,7 @@ export default function DedupDemo() {
                     </div>
                 ))}
             </dl>
-            <p className="mt-4 text-xs text-muted">Illustrative sizes. Only changed chunks are stored; every version stays restorable.</p>
+            <p className="mt-4 text-xs text-muted">Illustrative sizes. Only changed chunks are stored, and every version stays restorable. Real benchmarks show 70–95% chunk reuse when a large file gets a small edit.</p>
         </div>
     );
 }

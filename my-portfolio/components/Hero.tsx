@@ -30,7 +30,7 @@ export default function Hero() {
                         <a href="#mediagit" className="link text-fg">
                             MediaGit
                         </a>
-                        , a version-control engine for media, in Rust.
+                        , Git-like version control for large media files, written in Rust.
                     </p>
 
                     <div className="mt-10 flex flex-wrap items-center gap-3">

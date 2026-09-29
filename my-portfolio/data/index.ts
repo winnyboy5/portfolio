@@ -129,11 +129,34 @@ export const cases: Case[] = [
     },
 ];
 
+export const mediagit = {
+    repo: "https://github.com/winnyboy5/mediagit-core",
+    releases: "https://github.com/winnyboy5/mediagit-core/releases",
+    version: "v0.4.0-rc.1",
+    license: "BUSL-1.1",
+};
+
+// Figures from the project's README and benchmark docs.
+export const mediagitStats = [
+    { value: "70–95%", label: "chunk reuse on a small edit to a large file" },
+    { value: "30–52 ms", label: "commit latency, regardless of file size" },
+    { value: "247", label: "QA gates per release campaign, across 5 storage backends" },
+    { value: "70+", label: "file types across video, audio, 3D, image and design" },
+];
+
 export const mediagitFacts = [
-    { label: "Storage", value: "Content-addressable, deduplicated chunks" },
-    { label: "Language", value: "Rust — my first; AI-assisted for language specifics" },
-    { label: "Delivery", value: "GitHub Actions: cross-platform builds, tests, release artifacts" },
-    { label: "Interface", value: "CLI for versioning, diffing and restoring media" },
+    {
+        label: "Storage",
+        value: "BLAKE3 content-addressed objects; FastCDC content-defined chunking; media-aware parsers for MP4, MKV and GLB",
+    },
+    { label: "Savings", value: "Type-aware Zstd compression, exact dedup and similarity deltas" },
+    {
+        label: "Cloud",
+        value: "AWS S3, Azure Blob, GCS, MinIO; pack files and presigned direct-to-bucket transfer",
+    },
+    { label: "Security", value: "Opt-in XAES-256-GCM at-rest encryption, JWT and API-key auth, per-repo grants" },
+    { label: "Interface", value: "35-command CLI plus an Axum server; media-aware merge and file locking" },
+    { label: "Built", value: "12-crate Rust workspace — my first Rust project, AI-assisted for language specifics" },
 ];
 
 export type Role = {
