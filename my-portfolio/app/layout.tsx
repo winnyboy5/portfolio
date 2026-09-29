@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     authors: [{ name: site.name, url: site.url }],
     keywords: [
         "Aswin Krishnamoorthy",
-        "Staff Software Engineer",
+        "Senior Full-Stack Engineer",
         "Engineering Lead",
         "Applied AI",
         "Full-Stack",
@@ -69,7 +69,7 @@ const jsonLd = {
     "@type": "Person",
     name: site.name,
     url: site.url,
-    jobTitle: "Staff Software Engineer",
+    jobTitle: "Senior Full-Stack Developer — SME",
     email: `mailto:${site.email}`,
     address: { "@type": "PostalAddress", addressLocality: "Chennai", addressCountry: "IN" },
     alumniOf: "EASA College of Engineering & Technology",

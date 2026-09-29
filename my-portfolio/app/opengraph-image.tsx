@@ -32,7 +32,7 @@ export default function OpengraphImage() {
                     </div>
                 </div>
                 <div style={{ display: "flex", fontSize: 24, fontFamily: "monospace", color: "#5c584f" }}>
-                    {`${site.title} · ${site.years} years · Chennai, IN`}
+                    {`Senior Full-Stack Engineer · SME · ${site.years} years · Chennai, IN`}
                 </div>
             </div>
         ),

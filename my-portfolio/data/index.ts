@@ -3,7 +3,7 @@ export type NodeId = "clients" | "api" | "cache" | "fn" | "db" | "ci";
 export const site = {
     url: "https://aswin-krishnamoorthy.vercel.app",
     name: "Aswin Krishnamoorthy",
-    title: "Staff Software Engineer · Full-Stack SME",
+    title: "Senior Full-Stack Engineer · SME · Architecture & System Design",
     description:
         "Aswin Krishnamoorthy — staff-level full-stack engineer with 12+ years designing and building web and workflow platforms. Architecture, system design, and applied AI. Open to engineering lead and applied AI roles.",
     email: "winnyboy5@gmail.com",

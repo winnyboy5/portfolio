@@ -35,7 +35,7 @@ export default function Header() {
             <div className="mx-auto flex h-16 max-w-7xl items-center justify-between gap-6 px-4 sm:px-6 lg:px-10">
                 <a href="#top" className="flex items-baseline gap-2 whitespace-nowrap">
                     <span className="font-serif text-2xl italic leading-none">Aswin K.</span>
-                    <span className="hidden font-mono text-[11px] text-muted sm:inline">/ staff engineer</span>
+                    <span className="hidden font-mono text-[11px] text-muted sm:inline">/ full-stack · architecture</span>
                 </a>
                 <nav aria-label="Primary" className="hidden md:block">
                     <ul className="flex gap-7 text-sm">
