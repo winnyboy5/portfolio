@@ -16,13 +16,13 @@ export default function OpengraphImage() {
                     flexDirection: "column",
                     justifyContent: "space-between",
                     padding: 72,
-                    background: "#f3f0e8",
-                    color: "#17161a",
+                    background: "#f2f1ec",
+                    color: "#141816",
                     fontFamily: "serif",
                 }}
             >
-                <div style={{ display: "flex", alignItems: "center", gap: 14, fontSize: 26, fontFamily: "monospace", color: "#5c584f" }}>
-                    <div style={{ width: 14, height: 14, borderRadius: 14, background: "#c4401b" }} />
+                <div style={{ display: "flex", alignItems: "center", gap: 14, fontSize: 26, fontFamily: "monospace", color: "#545a55" }}>
+                    <div style={{ width: 14, height: 14, borderRadius: 14, background: "#1d6b47" }} />
                     {`Open to ${site.openTo.join(" · ")} roles`}
                 </div>
                 <div style={{ display: "flex", flexDirection: "column" }}>
@@ -31,7 +31,7 @@ export default function OpengraphImage() {
                         I design systems — and still write the code that runs them.
                     </div>
                 </div>
-                <div style={{ display: "flex", fontSize: 24, fontFamily: "monospace", color: "#5c584f" }}>
+                <div style={{ display: "flex", fontSize: 24, fontFamily: "monospace", color: "#545a55" }}>
                     {`Senior Full-Stack Engineer · SME · ${site.years} years · Chennai, IN`}
                 </div>
             </div>
